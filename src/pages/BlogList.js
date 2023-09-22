@@ -7,7 +7,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 //import './BlogList.css';
 
 function Blog() {
-  const [posts, setPosts] = useState([]);
+  // const [post, setPosts] = useState([]);
   const [blogData, setBlogData] = useState([]);
 
 
@@ -18,7 +18,7 @@ function Blog() {
     axios
       .get(`https://blog-zozd.onrender.com/api/posts?userId=${userObj._id}`)
       .then((response) => {
-        setPosts(response.data);
+        // setPosts(response.data);
         setBlogData(response.data);
       })
       .catch((error) => {
