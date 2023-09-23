@@ -1,35 +1,3 @@
-// import React, { useState } from "react";
-// import "./App.css";
-
-
-// import { BrowserRouter,Routes,Route,Navigate } from "react-router-dom";
-// import Home from "./pages/home";
-// import Admin from "./pages/AdminDashboard";
-// import Blog from "./pages/BlogList";
-// import Signup from "./pages/Signup";
-// import MainPages from "./components/MainPage";
-
-// function App(){
-//   // const [isAuthenticated.setIsAuthenticated]=useState(false);
-//   // const [s]
-
-//   return(
-    
-//     <BrowserRouter>
-//     <Routes>
-  
-//     <Route path="/"  element={<Home/>}/>  
-//           <Route path="/AdminDashboard"  element={<Admin/>}/>  
-//            <Route path="/BlogList" element={<Blog/>}/>   
-//            <Route path="/Signup" element={<Signup/>}/> 
-//            <Route path="/mainpage" element={<MainPages/>}/>
-//     </Routes>
-    
-//    </BrowserRouter>
-    
-//   )
-// }
-// export default App;
 
 import React, { useState } from "react";
 import "./App.css";
@@ -41,6 +9,8 @@ import Admin from "./pages/AdminDashboard";
 import Blog from "./pages/BlogList";
 import Signup from "./pages/Signup";
 import MainPages from "./components/MainPage";
+//import GoogleLogin from 'react-oauth/google';
+
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
