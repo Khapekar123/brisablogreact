@@ -37,14 +37,9 @@ function Login(props) {
     }
     return true;
    }
+const handleLogin = (event) => {
 
-
-
-
-  const handleLogin = (event) => {
-
-    
-    event.preventDefault(); 
+ event.preventDefault(); 
   
     
 
