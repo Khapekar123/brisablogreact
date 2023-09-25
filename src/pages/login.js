@@ -72,7 +72,7 @@ function Login(props) {
 
   };
   const handleGoogleLogin=()=>{
-    window.location.href="https://blog-zozd.onrender.com";
+    window.location.href="https://blog-zozd.onrender.com/auth/google";
   }
 
 
