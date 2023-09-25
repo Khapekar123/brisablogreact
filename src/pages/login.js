@@ -49,8 +49,9 @@ function Login(props) {
     }
     const data = {username,password};
     
-    axios.post('https://blog-zozd.onrender.com/api/login',data)
-    
+    // axios.post('https://blog-zozd.onrender.com/auth/google/callback',data)
+    axios.post('https://blog-zozd.onrender.com/api/login', data) // Use the correct URL for login
+
     .then(response => {
     
         if(response.data){
