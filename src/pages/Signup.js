@@ -8,7 +8,7 @@ function Signup  (props)  {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  // const [loginError, setLoginError] = useState('');
+   const [loginError, setLoginError] = useState('');
 
 
   const navigate = useNavigate();
